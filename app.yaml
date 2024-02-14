@@ -1,0 +1,4 @@
+---
+kind: wasmer.io/App.v0
+name: nextjs-wasmer-starter
+package: wasmer-examples/next-wasmer-starter
