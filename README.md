@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with `create-next-app`.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with `create-next-app` (with some minor adaptations for Wasmer).
 
 ## Getting Started
 
@@ -6,15 +6,18 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can run the Next.js example using Wasmer (check out the [install guide](https://docs.wasmer.io/install)):
+
+```bash
+wasmer run wasmer-examples/next-wasmer-starter --net
+```
+
+> [!TIP]
+> You can also run `wasmer run . --net` in the root of this repo
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your Next.js app.
 
 ## Learn More
 
@@ -31,7 +34,7 @@ The easiest way to deploy your Next.js app is to use the [Wasmer Edge](https://w
 
 Live example: http://wasmer-edge-next-ssg-sample.wasmer.app/
 
-First, you'll need to run `npm run build`, and then, to deploy to Wasmer Edge:
+First, you'll need to run `npm run edge:build`, and then, to deploy to Wasmer Edge:
 
 ```bash
 wasmer deploy
