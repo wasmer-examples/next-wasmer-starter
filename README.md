@@ -32,7 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Wasmer Edge](https://wasmer.io/products/edge).
 
-Live example: http://nextjs-wasmer-starter.wasmer.app/
+Live example: https://nextjs-wasmer-starter.wasmer.app/
 
 First, you'll need to run `npm run edge:build`, and then, to deploy to Wasmer Edge:
 
