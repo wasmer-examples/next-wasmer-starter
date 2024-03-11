@@ -47,4 +47,4 @@ jobs:
       - name: Build Next.js
         run: pnpm edge:build
       - name: Deploy app to Wasmer Edge
-        run: wasmer deploy --token=${{ secrets.WASMER_CIUSER_PROD_TOKEN }} --publish-package --non-interactive --no-wait --no-persist-id --owner wasmer-examples
+        run: wasmer deploy --token=${{ secrets.WASMER_CIUSER_PROD_TOKEN }} --publish-package --non-interactive --no-wait --no-persist-id
