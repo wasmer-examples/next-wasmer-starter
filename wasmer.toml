@@ -1,12 +1,5 @@
-[package]
-name = "wasmer-examples/next-wasmer-starter"
-version = "0.2.1"
-description = "Next.js Website (with SSR and API support!) Wasmer starter package"
-readme = "README.md"
-repository = "https://github.com/wasmer-examples/next-wasmer-starter"
-
 [dependencies]
-"wasmer/winterjs" = "^0.3"
+"wasmer/winterjs" = "^0.3.4"
 
 [fs]
 "/web" = ".vercel/output/static"

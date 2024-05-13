@@ -11,11 +11,9 @@ npm run dev
 You can run the Next.js example using Wasmer (check out the [install guide](https://docs.wasmer.io/install)):
 
 ```bash
-wasmer run wasmer-examples/next-wasmer-starter --net
+npm run edge:build
+wasmer run . --net
 ```
-
-> [!TIP]
-> You can also run `wasmer run . --net` in the root of this repo
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see your Next.js app.
 
@@ -39,7 +37,3 @@ First, you'll need to run `npm run edge:build`, and then, to deploy to Wasmer Ed
 ```bash
 wasmer deploy
 ```
-
-> [!NOTE]
-> You will need to have Wasmer installed (check out [the docs to install the Wasmer CLI](https://docs.wasmer.io/install)!). 
-> You will also need to change the namespace in `wasmer.toml` to your own namespace and app name in `app.yaml` to your own app name.
