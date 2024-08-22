@@ -12,7 +12,7 @@ You can run the Next.js example using Wasmer (check out the [install guide](http
 
 ```bash
 npm run edge:build
-wasmer run . --net
+wasmer run .
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see your Next.js app.

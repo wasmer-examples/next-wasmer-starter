@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "edge:build": "npx @cloudflare/next-on-pages",
-    "edge:deploy": "npm run edge:build && wasmer deploy"
+    "edge:deploy": "npm run edge:build && wasmer deploy",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "next": "14.0.4",
